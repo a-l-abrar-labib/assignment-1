@@ -58,10 +58,10 @@
     url(../images/Vectorrr.png);
   /* background-size: cover; */
   height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
   margin: 0 auto;
   border-radius: 16px;
 }
@@ -73,6 +73,7 @@
   font-weight: 900;
   width: 642px;
   letter-spacing: 7px;
+  padding: 126px 0 0 126px;
 }
 
 .welcome-p {
@@ -80,12 +81,20 @@
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
+  width: 697px;
+  padding: 24px 0 0 126px;
 }
 
 .welcome-btn {
   color: #fff;
   background: none;
   border: none;
+  padding: 48px 0 0 158px;
+  cursor: pointer;
+}
+
+.welcome-btn:hover {
+  color: rgba(255, 255, 255, 0.726);
 }
 
 .venue-date {
@@ -95,6 +104,11 @@
     rgba(255, 0, 0, 0) 100%
   );
   height: 482px;
+  /* margin: 0 auto; */
+  margin: 120px 0 0 0;
+  /* text-align: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .place-time {
@@ -103,6 +117,7 @@
 
 .place-time p {
   color: #070211;
+  display: inline;
 }
 
 .join-subs {
@@ -113,35 +128,6 @@
 
 .venue-date .join-subs {
   border-radius: 8px;
-}
-
-.soon-h4 {
-  color: #f00;
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-.soon-h3 {
-  color: #070211;
-  font-family: Merriweather;
-  font-size: 48px;
-  font-weight: 900;
-}
-
-.soon-p {
-  color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
-  width: 393px;
-}
-
-.coming-soon {
-  background-image: url(../images/Ellipse\ 1.png);
-  background-repeat: no-repeat;
-  /* border: 15px solid red; */
 }
 
 .container {
@@ -168,4 +154,76 @@ address {
 
 .contact-details {
   color: #fff;
+}
+
+.coming-soonn {
+  height: 735px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.soonn-h4 {
+  color: #f00;
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 255px;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+.soonn-h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  padding-right: 135px;
+  padding-bottom: 22px;
+  margin: 0;
+}
+
+.soonn-p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  width: 393px;
+  padding-right: 70px;
+  margin: 0;
+}
+
+.coming-soon-img {
+  width: 364.844px;
+  height: 364.844px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+
+.content-h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  padding-left: 118px;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+.content-p {
+  width: 276px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 118px;
+  margin: 0;
+}
+
+.content-img {
+  width: 140px;
+  height: 140px;
+  padding-left: 118px;
+  padding-top: 43px;
 }
