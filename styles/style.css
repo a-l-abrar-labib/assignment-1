@@ -60,7 +60,8 @@
   height: 600px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
   margin: 0 auto;
   border-radius: 16px;
 }
@@ -87,7 +88,84 @@
   border: none;
 }
 
+.venue-date {
+  background-color: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 482px;
+}
+
+.place-time {
+  color: #f00;
+}
+
+.place-time p {
+  color: #070211;
+}
+
+.join-subs {
+  color: #fff;
+  background: #f00;
+  border: none;
+}
+
+.venue-date .join-subs {
+  border-radius: 8px;
+}
+
+.soon-h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.soon-h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.soon-p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  width: 393px;
+}
+
+.coming-soon {
+  background-image: url(../images/Ellipse\ 1.png);
+  background-repeat: no-repeat;
+  /* border: 15px solid red; */
+}
+
 .container {
   max-width: 1320px;
   width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 609px;
+  background: #070211;
+}
+
+address {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  width: 375px;
+  height: 80px;
+  padding-top: 120px;
+  padding-left: 140px;
+}
+
+.contact-details {
+  color: #fff;
 }
