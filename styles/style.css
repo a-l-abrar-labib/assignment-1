@@ -199,6 +199,7 @@ address {
   height: 364.844px;
   border-radius: 463px;
   border: 15px solid #f00;
+  padding: 15px;
 }
 
 .content-h3 {
@@ -226,4 +227,129 @@ address {
   height: 140px;
   padding-left: 118px;
   padding-top: 43px;
+}
+
+.holiday-sale {
+  text-align: center;
+}
+
+.holiday-h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+.holiday-h2 .holiday-span {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  padding-bottom: 28px;
+}
+
+.holiday-h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 0;
+  padding-bottom: 28px;
+}
+
+.holiday-p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  width: 1068px;
+  display: inline-block;
+  margin: 0;
+}
+
+.holiday-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.holiday-banner-rectangle {
+  padding-top: 497px;
+  height: 229px;
+}
+
+.portfolio-h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding-top: 155px;
+  padding-bottom: 16px;
+}
+
+.portfolio-h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 22px;
+}
+
+.portfolio-p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  width: 895px;
+  margin: 0;
+  padding-bottom: 48px;
+}
+
+.portfolio-img {
+}
+
+.subs-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+  padding-bottom: 22px;
+}
+
+.subs-p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+  margin: 0;
+}
+
+.subs-input {
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  background: #fff;
+}
+
+.subs-btn {
+  width: 210px;
+  height: 72px;
+  color: #fff;
+  background-color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50px;
 }
