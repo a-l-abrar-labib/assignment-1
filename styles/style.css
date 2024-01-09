@@ -67,12 +67,7 @@ body {
 .welcome-party {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(../images/Vectorrr.png);
-  /* background-size: cover; */
   height: 600px;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* flex-direction: column; */
   margin: 0 auto;
   border-radius: 16px;
 }
@@ -108,6 +103,13 @@ body {
   color: rgba(255, 255, 255, 0.726);
 }
 
+.year {
+  width: 25%;
+  height: 70%;
+  margin-left: 920px;
+  margin-top: -380px;
+}
+
 .venue-date {
   background-image: linear-gradient(
     180deg,
@@ -115,7 +117,6 @@ body {
     rgba(255, 0, 0, 0) 100%
   );
   height: 482px;
-  /* margin: 0 auto; */
   margin: 120px auto 0 auto;
   display: flex;
   text-align: center;
@@ -128,7 +129,6 @@ body {
   font-family: Inter;
   font-size: 32px;
   font-weight: 600;
-  /* margin-top: 100px; */
 }
 
 .place-time p {
@@ -146,69 +146,6 @@ body {
   height: 56px;
   margin: 0 auto;
   margin-top: 5px;
-}
-
-footer {
-  width: 100%;
-  height: 320px;
-  background: #070211;
-}
-
-.details {
-  display: flex;
-  justify-content: space-between;
-}
-
-.address,
-.number,
-.website {
-  color: #fff;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.address {
-  width: 250px;
-  padding-top: 50px;
-}
-
-.social-link > hr {
-  opacity: 0.2;
-  width: 820px;
-}
-
-.social-link {
-  padding-top: 150px;
-}
-
-.social-link > a {
-  padding: 0 15px;
-}
-
-.number {
-  padding-top: 40px;
-}
-
-.icon {
-  margin-top: 50px;
-}
-
-.icon > img {
-  padding: 0;
-  margin: 0;
-  padding-right: 50px;
-}
-
-.rights-unsubs {
-  display: flex;
-  justify-content: space-around;
-  max-width: 1320px;
-  width: 100%;
-  color: #fff;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
 }
 
 .coming-soonn {
@@ -328,16 +265,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-image: url(../images/Rectangle\ 2.png);
+  background-repeat: no-repeat; */
 }
 
 .surprise-box {
   width: 250px;
   height: 250px;
-}
-
-.portfolio {
-  /* display: flex; */
-  /* margin: 0 auto; */
 }
 
 .portfolio-h4 {
@@ -373,23 +307,16 @@ footer {
 
 .portfolio-img-1 {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
-  /* width: 425px;
-  height: 450px; */
   border-radius: 16px;
   padding-top: 48px;
 }
 
 .portfolio-img-2 {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
-  /* width: 425px;
-  height: 450px; */
   border-radius: 16px;
   border: 16px;
-  /* padding: 10px; */
   padding-top: 24px;
 }
 
@@ -459,34 +386,6 @@ footer {
   margin-right: 140px;
 }
 
-/* .subs-input {
-  width: 230px;
-  height: 40px;
-  border-radius: 1px solid #000;
-  background: transparent;
-  color: #000;
-  border-right: none;
-  font-size: 16px;
-  padding: 10px;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-} */
-
-/* .subs-btn {
-  width: 100px;
-  height: 40px;
-  color: #fff;
-  background: #f00;
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 600;
-  border: 2px solid #000;
-  margin-top: 18px;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
-} */
-
 .subs-input {
   width: 500px;
   height: 60px;
@@ -494,7 +393,6 @@ footer {
   border-bottom-left-radius: 50px;
   border: none;
   color: rgba(7, 2, 17, 0.3);
-  /* padding-left: 10px; */
   text-align: center;
   font-family: Inter;
   font-size: 14px;
@@ -518,4 +416,65 @@ footer {
   font-size: 16px;
   font-weight: 600;
   position: absolute;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 320px;
+  background: #070211;
+}
+
+.info {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.contact-img {
+  display: flex;
+}
+
+img {
+  padding: 0 8px;
+}
+
+.number,
+.web {
+  margin: 0;
+  padding: 3px 0;
+}
+
+hr {
+  opacity: 0.2;
+  width: 1320px;
+}
+
+.social {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.rights-subs {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Inter;
 }
